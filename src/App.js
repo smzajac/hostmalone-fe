@@ -25,9 +25,9 @@ const Center = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  background-color: #a2aec1;
-  padding-bottom: 15px;
-  margin-bottom: 10px;
+  // background-color: #a2aec1;
+  // padding-bottom: 15px;
+  // margin-bottom: 10px;
 `
 const Block = styled.div`
   display: flex;
@@ -43,15 +43,16 @@ class App extends Component {
           Post Malone is the best ever.
           </marquee>
           <img src={malone} className="App-logo" alt="logo" />
-          <Center>
+          
           <Input/>
-          <Button variant="contained" color="primary" className={classes.button}>
+         
+          {/* <Button variant="contained" color="primary" className={classes.button}>
             Boast
           </Button>
           <Button variant="contained" color="primary">
             Roast
-          </Button>
-        </Center>
+          </Button> */}
+        
         <Posty/>
         <marquee width="100%" direction="right">
           Post Malone is the best ever.
