@@ -5,6 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 //THEME
+//MuiThemeProvider provides the MUI theme as CSS to all components that import it withStyles()
 import MuiThemeProvider from '@material-ui/core/styles/MuiThemeProvider';
 import muiTheme from './theme/muiTheme';
 import { withStyles } from '@material-ui/core/styles';
